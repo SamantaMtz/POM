@@ -1,5 +1,4 @@
 import pytest
-import yaml
 from appium import webdriver
 
 DESIRED_CAPABILITIES = {
@@ -11,7 +10,7 @@ DESIRED_CAPABILITIES = {
   "appium:appActivity": "com.saucelabs.mydemoapp.rn.MainActivity"
 }
 
-DATA_PATH = "../utils/data.yml"
+#DATA_PATH = "../utils/data.yml"
 
 URL = "http://127.0.0.1:4723/wd/hub"
 
